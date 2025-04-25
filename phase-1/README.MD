@@ -1,6 +1,4 @@
-# 🔐 Reachability Testing - SSH Attack Lab
-
-This folder contains the documentation and supporting files for the **Phase 1: Service Reachability & Compromise** project using Metasploitable3 and Kali Linux.
+# 🔐 PHASE 1
 
 ## 🖥️ VM Network Configuration
 
