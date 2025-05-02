@@ -1,11 +1,11 @@
 # 🛡️ Phase 3 – SSH Brute-Force Defense with Fail2Ban
 
-## 🧰 Defense Mechanism
+##  Defense Mechanism
 We implemented Fail2Ban on the Metasploitable3 to protect against SSH brute-force attacks. The goal was to validate an effective defense mechanism on the Metasploitable3 victim machine. Fail2Ban was chosen for its ability to monitor failed login attempts and automatically block attacker IPs after a defined number of failures. The defense was tested using Hydra from the attacker machine to simulate a real brute-force scenario.
 
 ---
 
-## 🧪 Testing & Validation
+##  Testing & Validation
 We performed a brute-force SSH attack with Hydra on the attacker machine, using incorrect credentials from a password list. As intended, the attack triggered Fail2Ban after multiple failed login attempts. The attacker's IP address (192.168.183.7) was automatically blocked. Fail2Ban successfully mitigated SSH brute-force attacks by detecting failed login patterns and banning the attacker. This demonstrates an effective defense mechanism against automated intrusion attempts.
 
 ---
@@ -38,7 +38,7 @@ We performed a brute-force SSH attack with Hydra on the attacker machine, using 
 
 ---
 
-## 🧪 Tools & Environment
+##  Tools & Environment
 
 - **Victim Machine**: Metasploitable3  
 - **Attacker Machine**: Kali Linux  
