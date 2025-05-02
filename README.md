@@ -1,15 +1,16 @@
 # ICS344-PROJECT
 
-Team no 5
-Section F08
+# 👥 Team 
 
-Work Distribution:
+**Team No:** 5  
+**Section:** F08  
 
-Phase-1:Lamees Alikhwan 202180430 
+## 📋 Work Distribution
 
-Phase-2:Reem Abdelgawad & Lamees Alikhwan
-
-Phase-3: Reem Abdelgawad  202183010
-
+| Phase     | Team Members                      | ID         |
+|-----------|--------------------------------------|------------|
+| Phase 1   | Lamees Alikhwan                      | 202180430  |
+| Phase 2   | Reem Abdelgawad & Lamees Alikhwan    | -          |
+| Phase 3   | Reem Abdelgawad                      | 202183010  |
 
 
