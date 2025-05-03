@@ -26,6 +26,7 @@ We performed a brute-force SSH attack with Hydra on the attacker machine, using 
 
 3. **Installing Fail2Ban on the Victim Machine**  
    After confirming the system's vulnerability, we installed Fail2Ban on the Metasploitable3 machine. This tool is designed to monitor authentication logs and automatically block suspicious IPs.
+
 ![fail2ban](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Install%20Fail2Ban%20on%20Metasploitable3.png?raw=true)
 
 4. **Configuring Fail2Ban for SSH Protection**  
@@ -54,6 +55,7 @@ We performed a brute-force SSH attack with Hydra on the attacker machine, using 
 8. **Validating the Effectiveness of the Defense**  
    To further confirm the defense, we attempted to SSH into the victim machine again from the attacker. The connection was refused, demonstrating that Fail2Ban was actively protecting the system by preventing repeated unauthorized login attempts.
 
+![after defense](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/After%20the%20defense.png?raw=true)
 ---
 
 ##  Tools & Environment
