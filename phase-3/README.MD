@@ -38,6 +38,9 @@ We performed a brute-force SSH attack with Hydra on the attacker machine, using 
 5. **Activating the Defense Mechanism**  
    The Fail2Ban service was restarted to apply the configuration and begin monitoring login activity on the SSH port.
 
+![restart](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Restart%20Fail2Ban%20Service.png?raw=true)
+
+
 6. **Rerunning the SSH Brute-Force Attack**  
    With the defense active, we reran the Hydra attack from the Kali machine. After three failed attempts, Fail2Ban automatically detected the brute-force behavior and blocked the attacker’s IP.
 
