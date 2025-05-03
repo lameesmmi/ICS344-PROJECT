@@ -25,7 +25,6 @@ We performed a brute-force SSH attack with Hydra on the attacker machine, using 
 2. **Confirming Vulnerability**  
    The attack was initially successful in sending multiple failed SSH login attempts to the victim machine. At this point, no defense was in place, and the system was exposed to brute-force intrusion.
 
-![attack](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Before%20the%20attack.png?raw=true)
 
 ![rerun](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Rerun%20Hydra%20Attack%20from%20Kali.png?raw=true)
 
@@ -33,6 +32,9 @@ We performed a brute-force SSH attack with Hydra on the attacker machine, using 
    After confirming the system's vulnerability, we installed Fail2Ban on the Metasploitable3 machine. This tool is designed to monitor authentication logs and automatically block suspicious IPs.
 
 ![fail2ban](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Install%20Fail2Ban%20on%20Metasploitable3.png?raw=true)
+
+![attack](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Before%20the%20attack.png?raw=true)
+
 
 4. **Configuring Fail2Ban for SSH Protection**  
    A configuration file was created to monitor SSH login attempts. The settings specified that an IP address should be banned after three failed login attempts. The ban duration was also defined to temporarily block access from malicious sources.
