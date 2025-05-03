@@ -14,6 +14,7 @@ We performed a brute-force SSH attack with Hydra on the attacker machine, using 
 
 1. **Simulating an SSH Brute-Force Attack**  
    We began Phase 3 by simulating a brute-force SSH attack from the attacker machine (Kali Linux). A password list containing weak and common credentials was created, and Hydra was used to automate the attack against the Metasploitable3 victim machine.
+![attacer](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Attacker%20IP.png)
 
 2. **Confirming Vulnerability**  
    The attack was initially successful in sending multiple failed SSH login attempts to the victim machine. At this point, no defense was in place, and the system was exposed to brute-force intrusion.
