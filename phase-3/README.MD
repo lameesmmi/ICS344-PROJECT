@@ -20,7 +20,7 @@ We performed a brute-force SSH attack with Hydra on the attacker machine, using 
 ![victim](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Victim%20IP.png)
 2. **Confirming Vulnerability**  
    The attack was initially successful in sending multiple failed SSH login attempts to the victim machine. At this point, no defense was in place, and the system was exposed to brute-force intrusion.
-
+![attack](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Before%20the%20attack.png?raw=true)
 3. **Installing Fail2Ban on the Victim Machine**  
    After confirming the system's vulnerability, we installed Fail2Ban on the Metasploitable3 machine. This tool is designed to monitor authentication logs and automatically block suspicious IPs.
 
