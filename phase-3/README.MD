@@ -27,6 +27,7 @@ We performed a brute-force SSH attack with Hydra on the attacker machine, using 
 
 ![attack](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Before%20the%20attack.png?raw=true)
 
+![rerun](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Rerun%20Hydra%20Attack%20from%20Kali.png?raw=true)
 
 3. **Installing Fail2Ban on the Victim Machine**  
    After confirming the system's vulnerability, we installed Fail2Ban on the Metasploitable3 machine. This tool is designed to monitor authentication logs and automatically block suspicious IPs.
@@ -49,8 +50,7 @@ We performed a brute-force SSH attack with Hydra on the attacker machine, using 
 6. **Rerunning the SSH Brute-Force Attack**  
    With the defense active, we reran the Hydra attack from the Kali machine. After three failed attempts, Fail2Ban automatically detected the brute-force behavior and blocked the attacker’s IP.
 
-![rerun](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Rerun%20Hydra%20Attack%20from%20Kali.png?raw=true)
-
+![zerofound](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/zero.png?raw=true)
 7. **Verifying Fail2Ban’s Response**  
    On the victim machine, we checked the Fail2Ban status and log files to confirm that the attacker’s IP had been successfully banned. The ban entry was visible in both the Fail2Ban service output and the fail2ban log.
 
