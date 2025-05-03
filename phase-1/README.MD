@@ -9,6 +9,8 @@
 
 Both machines are configured to communicate within the same **Host-Only Adapter** network.
 
+![Kali IP](phase-1/Screenshots/kali ip and ping.png)
+
 ---
 
 ## 📡 Objective
