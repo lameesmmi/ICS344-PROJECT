@@ -49,6 +49,8 @@ We performed a brute-force SSH attack with Hydra on the attacker machine, using 
 7. **Verifying Fail2Ban’s Response**  
    On the victim machine, we checked the Fail2Ban status and log files to confirm that the attacker’s IP had been successfully banned. The ban entry was visible in both the Fail2Ban service output and the fail2ban log.
 
+![check](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-3/Screenshots/Check%20if%20IP%20Got%20Banned%20on%20Metasploitable3.png?raw=true)
+
 8. **Validating the Effectiveness of the Defense**  
    To further confirm the defense, we attempted to SSH into the victim machine again from the attacker. The connection was refused, demonstrating that Fail2Ban was actively protecting the system by preventing repeated unauthorized login attempts.
 
