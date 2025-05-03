@@ -9,7 +9,7 @@
 
 Both machines are configured to communicate within the same **Host-Only Adapter** network.
 
-![Kali IP](phase-1/Screenshots/kali ip and ping.png)
+![Kali IP ](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-1/Screenshots/kali%20ip%20and%20ping.png?raw=true)
 
 ---
 
