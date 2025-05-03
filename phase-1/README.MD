@@ -9,7 +9,17 @@
 
 Both machines are configured to communicate within the same **Host-Only Adapter** network.
 
-![Kali IP ](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-1/Screenshots/kali%20ip%20and%20ping.png?raw=true)
+##IP Addresses 
+![Kali IP](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-1/Screenshots/kali%20ip%20and%20ping.png?raw=true)
+
+![Metasploitable IP](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-1/Screenshots/metasploitable%20ip.png?raw=true)
+
+## Reachability Through Ping:
+![Metasploitable Pingig Kali](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-1/Screenshots/metasploitable%20pinging%20kali.png?raw=true)
+
+![Kali Pinging Metasploitable](https://github.com/lameesmmi/ICS344-PROJECT/blob/main/phase-1/Screenshots/kali%20ip%20and%20ping.png?raw=true)
+
+
 
 ---
 
